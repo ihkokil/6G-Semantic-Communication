@@ -231,13 +231,15 @@ pip install -r requirements.txt
 
 ## Acknowledgements
 
-* LDPC implementation adapted from: [pyldpc](https://github.com/hichamjanati/pyldpc)
-* Semantic training examples adapted from:
+This project builds upon the following works and resources:
 
-  * [SJTU Semantic Communication Systems](https://github.com/SJTU-mxtao/Semantic-Communication-Systems)
-  * [Semantic Communication via Deep Learning (arXiv:2205.00271)](https://arxiv.org/abs/2205.00271)
+- **Dataset:** [CIFAR-10](https://www.cs.toronto.edu/~kriz/cifar.html) (used for training and evaluation)  
+- **LDPC Implementation:** adapted from [pyldpc](https://github.com/hichamjanati/pyldpc)  
+- **Semantic Training References:**  
+  - [SJTU Semantic Communication Systems](https://github.com/SJTU-mxtao/Semantic-Communication-Systems)  
+  - [Semantic Communication via Deep Learning (arXiv:2205.00271)](https://arxiv.org/abs/2205.00271)  
 
-This framework can be extended to other semantic backbones by modifying `SemanticNN` in `SemantIC.py`.
+This framework can be extended to other semantic backbones by modifying the `SemanticNN` class in `SemantIC.py`.
 
 ---
 
