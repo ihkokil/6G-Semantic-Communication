@@ -1,0 +1,8 @@
+torch==1.13.0
+torchvision==0.14.0
+numpy
+scipy
+numba
+pillow
+imageio
+pandas
